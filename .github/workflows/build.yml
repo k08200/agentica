@@ -1,8 +1,4 @@
 name: Agentica Build
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch: # 수동 실행을 위해 추가
 on: [pull_request]
 jobs:
   build:
